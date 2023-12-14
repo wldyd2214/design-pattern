@@ -2,6 +2,10 @@ package com.study.designpattern.iterator;
 
 import java.util.Iterator;
 
+/*
+ * Iterator 패턴은 무엇인가 많이 모여 있을 때
+ * 이를 순서대로 가르키며 전체를 검색하고 처리를 반복하는 것
+ */
 public class IteratorMain {
     public static void main(String args[]) {
         BookShelf bookShelf = new BookShelf(4);
